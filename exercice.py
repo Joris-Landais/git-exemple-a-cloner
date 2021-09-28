@@ -17,7 +17,7 @@ def checkers(n, premiere_case=0):
     """
     Génère un tableau numpy en "damier" de taille (n, n).
     """
-    return np.array([])
+    return np.array([n,n])
 
 print(checkers(2))
 
